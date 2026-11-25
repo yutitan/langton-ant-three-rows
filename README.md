@@ -10,7 +10,8 @@ independently verified with DeepSeek Harness — see [Provenance](#provenance)
 
 > 本仓库是"大模型的小练习"系列的第二篇，是一份个人 AI 使用记录，不是论文，
 > 不作优先权主张。系列第一篇：
-> [Counterexamples to *Written on the Wall II* conjecture #138](https://github.com/yutitan/wowii-conjecture-138)。
+> [Counterexamples to *Written on the Wall II* conjecture #138](https://github.com/yutitan/wowii-conjecture-138)
+> — [DOI 10.5281/zenodo.24540807](https://doi.org/10.5281/zenodo.24540807)。
 
 ## 结果
 
