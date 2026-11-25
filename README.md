@@ -12,6 +12,8 @@ independently verified with DeepSeek Harness — see [Provenance](#provenance)
 > 不作优先权主张。系列第一篇：
 > [Counterexamples to *Written on the Wall II* conjecture #138](https://github.com/yutitan/wowii-conjecture-138)
 > — [DOI 10.5281/zenodo.24540807](https://doi.org/10.5281/zenodo.24540807)。
+> 系列第三篇：
+> [Langton's ant on n×n boards — an explicit escape-time bound](https://github.com/yutitan/langton-ant-square-bound)。
 
 ## 结果
 
