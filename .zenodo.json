@@ -1,0 +1,21 @@
+{
+ "title": "大模型的小练习（二）：三行朗顿蚂蚁的精确逃逸时间",
+ "description": "<p><strong>大模型的小练习（二）</strong>：三行朗顿蚂蚁的精确逃逸时间。设 S(n) 为在 3×n 棋盘上、对所有初始染色、起点和朝向取最大值时，蚂蚁第一次走出棋盘所需的最多步数（计入走出那一步）。本记录给出 S(1)=2、S(2)=12，且对 n≥3，S(n)=10n−12（n 偶）或 10n−13（n 奇）。下界由 Kossi Roland Etse（MFCS 2026，DOI 10.4230/LIPIcs.MFCS.2026.49）以显式构造给出，并报告了 n≤20 的精确模拟；本记录补上任意宽度的上界证明：一个 34 条记录的有限证书（穷举 64 与 4096 种端块染色）加替换归纳 S(n) ≤ S(n−2)+20（n≥8），基例 1–7 由穷举给出。所有断言由仓库中的独立程序核验，运行输出在 verify/results.txt。</p><p>English: Let S(n) be the maximum escape time of Langton's ant on a 3×n board over all colourings and starting poses (the exiting step included). We record S(1)=2, S(2)=12 and, for every n≥3, S(n)=10n−12 for even n and 10n−13 for odd n. The lower bound is due to Etse (MFCS 2026), who also reported exact simulations up to n=20; this record supplies the all-width upper-bound proof via a finite 34-record certificate and an induction that replaces a four-column end block by a two-column block. Everything is checked by independent programs in the repository.</p><p>This repository is a public record of a personal AI-assisted exploration and makes no priority claim. The result was derived with GPT 6.2 Astra (OpenAI Codex) and independently verified with DeepSeek Harness; see PROVENANCE.md. Series entry (一): https://github.com/yutitan/wowii-conjecture-138</p>",
+ "creators": [
+  {
+   "name": "yutitan"
+  }
+ ],
+ "keywords": [
+  "Langton's ant",
+  "Langton 蚂蚁",
+  "cellular automata",
+  "escaping time",
+  "computer-assisted proof",
+  "AI-assisted exploration"
+ ],
+ "license": "MIT",
+ "upload_type": "software",
+ "access_right": "open",
+ "language": "zho"
+}

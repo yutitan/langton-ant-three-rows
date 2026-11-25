@@ -1,0 +1,12 @@
+n=1 S3_1=2 (pose row 0 col 0 head 2)
+n=2 S3_2=12 (pose row 0 col 1 head 2)
+n=3 S3_3=17 (pose row 0 col 0 head 1)
+n=4 S3_4=28 (pose row 0 col 3 head 2)
+n=5 S3_5=37 (pose row 0 col 4 head 1)
+n=6 S3_6=48 (pose row 0 col 5 head 2)
+n=7 S3_7=57 (pose row 0 col 6 head 1)
+
+real	0m7.334s
+user	0m7.326s
+sys	0m0.000s
+EXIT:0

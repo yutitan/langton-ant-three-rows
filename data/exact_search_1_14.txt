@@ -1,0 +1,16 @@
+width  S(3,n)  formula  match  seconds
+    1       2        2   True     0.0
+    2      12       12   True     0.0
+    3      17       17   True     0.0
+    4      28       28   True     0.0
+    5      37       37   True     0.0
+    6      48       48   True     0.0
+    7      57       57   True     0.1
+    8      68       68   True     0.1
+    9      77       77   True     0.3
+   10      88       88   True     0.8
+   11      97       97   True     2.0
+   12     108      108   True     8.0
+   13     117      117   True    22.5
+   14     128      128   True    56.8
+EXIT:0

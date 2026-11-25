@@ -1,0 +1,1085 @@
+{
+ "description": "Finite certificate for the upper-bound proof of the exact escape time of Langton's ant on three-row boards: for every realisable end-block record P4(r) - P2(r) <= 20.",
+ "conventions": "3 rows x width columns; cell = row*width+col; board mask bit 1 = right-turn cell; headings 0,1,2,3 = E,S,W,N; entry from the left face at (entry,0) heading east; reply = exit row through the left face, or -1 for escape through another side.",
+ "generated_by": "verify/make_certificate.py",
+ "widths": [
+  2,
+  4
+ ],
+ "max_visits": 4,
+ "records": [
+  {
+   "record": [],
+   "P2": 0,
+   "P4": 0,
+   "diff": 0,
+   "witness2": null,
+   "witness4": null
+  },
+  {
+   "record": [
+    [
+     0,
+     -1
+    ]
+   ],
+   "P2": 12,
+   "P4": 28,
+   "diff": 16,
+   "witness2": {
+    "board": 57,
+    "entries": [
+     0
+    ]
+   },
+   "witness4": {
+    "board": 3879,
+    "entries": [
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ]
+   ],
+   "P2": 6,
+   "P4": 14,
+   "diff": 8,
+   "witness2": {
+    "board": 1,
+    "entries": [
+     0
+    ]
+   },
+   "witness4": {
+    "board": 7,
+    "entries": [
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     -1
+    ]
+   ],
+   "P2": 4,
+   "P4": 19,
+   "diff": 15,
+   "witness2": {
+    "board": 3,
+    "entries": [
+     1
+    ]
+   },
+   "witness4": {
+    "board": 48,
+    "entries": [
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     0
+    ]
+   ],
+   "P2": 6,
+   "P4": 14,
+   "diff": 8,
+   "witness2": {
+    "board": 11,
+    "entries": [
+     1
+    ]
+   },
+   "witness4": {
+    "board": 143,
+    "entries": [
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     2
+    ]
+   ],
+   "P2": 6,
+   "P4": 14,
+   "diff": 8,
+   "witness2": {
+    "board": 4,
+    "entries": [
+     1
+    ]
+   },
+   "witness4": {
+    "board": 112,
+    "entries": [
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     -1
+    ]
+   ],
+   "P2": 12,
+   "P4": 28,
+   "diff": 16,
+   "witness2": {
+    "board": 36,
+    "entries": [
+     2
+    ]
+   },
+   "witness4": {
+    "board": 2256,
+    "entries": [
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ]
+   ],
+   "P2": 6,
+   "P4": 14,
+   "diff": 8,
+   "witness2": {
+    "board": 44,
+    "entries": [
+     2
+    ]
+   },
+   "witness4": {
+    "board": 2288,
+    "entries": [
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   "P2": 14,
+   "P4": 34,
+   "diff": 20,
+   "witness2": {
+    "board": 49,
+    "entries": [
+     0,
+     0
+    ]
+   },
+   "witness4": {
+    "board": 3845,
+    "entries": [
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     -1
+    ]
+   ],
+   "P2": 7,
+   "P4": 15,
+   "diff": 8,
+   "witness2": {
+    "board": 17,
+    "entries": [
+     0,
+     2
+    ]
+   },
+   "witness4": {
+    "board": 263,
+    "entries": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "P2": 8,
+   "P4": 16,
+   "diff": 8,
+   "witness2": {
+    "board": 1,
+    "entries": [
+     0,
+     2
+    ]
+   },
+   "witness4": {
+    "board": 7,
+    "entries": [
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     -1
+    ]
+   ],
+   "P2": 9,
+   "P4": 29,
+   "diff": 20,
+   "witness2": {
+    "board": 11,
+    "entries": [
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 1675,
+    "entries": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "P2": 8,
+   "P4": 16,
+   "diff": 8,
+   "witness2": {
+    "board": 0,
+    "entries": [
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 96,
+    "entries": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     -1
+    ]
+   ],
+   "P2": 9,
+   "P4": 29,
+   "diff": 20,
+   "witness2": {
+    "board": 4,
+    "entries": [
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 1136,
+    "entries": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "P2": 8,
+   "P4": 16,
+   "diff": 8,
+   "witness2": {
+    "board": 31,
+    "entries": [
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 415,
+    "entries": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   "P2": 7,
+   "P4": 15,
+   "diff": 8,
+   "witness2": {
+    "board": 44,
+    "entries": [
+     2,
+     0
+    ]
+   },
+   "witness4": {
+    "board": 2288,
+    "entries": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "P2": 8,
+   "P4": 16,
+   "diff": 8,
+   "witness2": {
+    "board": 45,
+    "entries": [
+     2,
+     0
+    ]
+   },
+   "witness4": {
+    "board": 2289,
+    "entries": [
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     -1
+    ]
+   ],
+   "P2": 14,
+   "P4": 34,
+   "diff": 20,
+   "witness2": {
+    "board": 44,
+    "entries": [
+     2,
+     2
+    ]
+   },
+   "witness4": {
+    "board": 2800,
+    "entries": [
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   "P2": 5,
+   "P4": 5,
+   "diff": 0,
+   "witness2": {
+    "board": 5,
+    "entries": [
+     0,
+     2,
+     0
+    ]
+   },
+   "witness4": {
+    "board": 17,
+    "entries": [
+     0,
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ]
+   ],
+   "P2": 10,
+   "P4": 18,
+   "diff": 8,
+   "witness2": {
+    "board": 1,
+    "entries": [
+     0,
+     2,
+     0
+    ]
+   },
+   "witness4": {
+    "board": 7,
+    "entries": [
+     0,
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     -1
+    ]
+   ],
+   "P2": 9,
+   "P4": 17,
+   "diff": 8,
+   "witness2": {
+    "board": 1,
+    "entries": [
+     0,
+     2,
+     2
+    ]
+   },
+   "witness4": {
+    "board": 7,
+    "entries": [
+     0,
+     2,
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     -1
+    ]
+   ],
+   "P2": 11,
+   "P4": 31,
+   "diff": 20,
+   "witness2": {
+    "board": 0,
+    "entries": [
+     1,
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 1120,
+    "entries": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     0
+    ]
+   ],
+   "P2": 10,
+   "P4": 18,
+   "diff": 8,
+   "witness2": {
+    "board": 26,
+    "entries": [
+     1,
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 398,
+    "entries": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     -1
+    ]
+   ],
+   "P2": 11,
+   "P4": 31,
+   "diff": 20,
+   "witness2": {
+    "board": 31,
+    "entries": [
+     1,
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 1947,
+    "entries": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ]
+   ],
+   "P2": 10,
+   "P4": 18,
+   "diff": 8,
+   "witness2": {
+    "board": 20,
+    "entries": [
+     1,
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 368,
+    "entries": [
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   "P2": 9,
+   "P4": 17,
+   "diff": 8,
+   "witness2": {
+    "board": 45,
+    "entries": [
+     2,
+     0,
+     0
+    ]
+   },
+   "witness4": {
+    "board": 2289,
+    "entries": [
+     2,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     -1
+    ]
+   ],
+   "P2": 5,
+   "P4": 5,
+   "diff": 0,
+   "witness2": {
+    "board": 1,
+    "entries": [
+     2,
+     0,
+     2
+    ]
+   },
+   "witness4": {
+    "board": 1,
+    "entries": [
+     2,
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ]
+   ],
+   "P2": 10,
+   "P4": 18,
+   "diff": 8,
+   "witness2": {
+    "board": 45,
+    "entries": [
+     2,
+     0,
+     2
+    ]
+   },
+   "witness4": {
+    "board": 2289,
+    "entries": [
+     2,
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   "P2": 11,
+   "P4": 19,
+   "diff": 8,
+   "witness2": {
+    "board": 1,
+    "entries": [
+     0,
+     2,
+     0,
+     0
+    ]
+   },
+   "witness4": {
+    "board": 7,
+    "entries": [
+     0,
+     2,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     -1
+    ]
+   ],
+   "P2": 11,
+   "P4": 19,
+   "diff": 8,
+   "witness2": {
+    "board": 1,
+    "entries": [
+     0,
+     2,
+     0,
+     2
+    ]
+   },
+   "witness4": {
+    "board": 7,
+    "entries": [
+     0,
+     2,
+     0,
+     2
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     -1
+    ]
+   ],
+   "P2": 13,
+   "P4": 33,
+   "diff": 20,
+   "witness2": {
+    "board": 26,
+    "entries": [
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 1930,
+    "entries": [
+     1,
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     0
+    ],
+    [
+     1,
+     2
+    ],
+    [
+     1,
+     -1
+    ]
+   ],
+   "P2": 13,
+   "P4": 33,
+   "diff": 20,
+   "witness2": {
+    "board": 20,
+    "entries": [
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "witness4": {
+    "board": 1392,
+    "entries": [
+     1,
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     -1
+    ]
+   ],
+   "P2": 11,
+   "P4": 19,
+   "diff": 8,
+   "witness2": {
+    "board": 45,
+    "entries": [
+     2,
+     0,
+     2,
+     0
+    ]
+   },
+   "witness4": {
+    "board": 2289,
+    "entries": [
+     2,
+     0,
+     2,
+     0
+    ]
+   }
+  },
+  {
+   "record": [
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     2,
+     -1
+    ]
+   ],
+   "P2": 11,
+   "P4": 19,
+   "diff": 8,
+   "witness2": {
+    "board": 45,
+    "entries": [
+     2,
+     0,
+     2,
+     2
+    ]
+   },
+   "witness4": {
+    "board": 2289,
+    "entries": [
+     2,
+     0,
+     2,
+     2
+    ]
+   }
+  }
+ ],
+ "count": 34,
+ "max_diff": 20,
+ "diff_distribution": {
+  "0": 3,
+  "8": 20,
+  "15": 1,
+  "16": 2,
+  "20": 8
+ },
+ "base_cases": {
+  "1": 2,
+  "2": 12,
+  "3": 17,
+  "4": 28,
+  "5": 37,
+  "6": 48,
+  "7": 57
+ }
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+type: software
+title: "大模型的小练习（二）：三行朗顿蚂蚁的精确逃逸时间"
+version: "1.0.0"
+date-released: "2026-11-26"
+authors:
+  - name: "yutitan"
+repository-code: "https://github.com/yutitan/langton-ant-three-rows"
+url: "https://github.com/yutitan/langton-ant-three-rows"
+abstract: >-
+  Exact escape time of Langton's ant on three-row boards: S(1)=2, S(2)=12 and,
+  for every n>=3, S(n)=10n-12 (n even) and S(n)=10n-13 (n odd). The lower
+  bound is due to Etse (MFCS 2026); this record supplies the all-width
+  upper-bound proof, a computer-assisted argument based on a finite
+  34-record certificate and an induction replacing a four-column end block by
+  a two-column block (S(n) <= S(n-2)+20 for n>=8). All claims are checked by
+  independent programs included in the repository.
+keywords:
+  - Langton's ant
+  - cellular automata
+  - escaping time
+  - computer-assisted proof
+  - AI-assisted exploration
+license: MIT
+notes: >-
+  Series: 大模型的小练习（二） (LLM Exercises II); the first entry is
+  https://github.com/yutitan/wowii-conjecture-138. Derived with GPT 6.2 Astra
+  (OpenAI Codex, model gpt-6.2-astra) on 2026-11-25 17:55:34 UTC and
+  independently verified with DeepSeek Harness. This is a public record of a
+  personal AI-assisted exploration and makes no priority claim. The lower
+  bound is due to K. R. Etse, "How Long Can The Escaping Ant Be Confined?",
+  MFCS 2026, DOI 10.4230/LIPIcs.MFCS.2026.49; the four-row analogue was solved
+  by H. Ke, DOI 10.5281/zenodo.23675964.

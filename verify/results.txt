@@ -1,0 +1,75 @@
+== 1/6 original verification program ==
+Entry>reply (X = escape) | width 2 | width 4 | difference
+(no entry)                      0         0            0
+0>X                            12        28           16
+0>1                             6        14            8
+0>1 0>X                        14        34           20
+0>1 2>X                         7        15            8
+0>1 2>1                         8        16            8
+0>1 2>1 0>X                     5         5            0
+0>1 2>1 0>1                    10        18            8
+0>1 2>1 0>1 0>X                11        19            8
+0>1 2>1 0>1 2>X                11        19            8
+0>1 2>1 2>X                     9        17            8
+1>X                             4        19           15
+1>0                             6        14            8
+1>0 1>X                         9        29           20
+1>0 1>2                         8        16            8
+1>0 1>2 1>X                    11        31           20
+1>0 1>2 1>0                    10        18            8
+1>0 1>2 1>0 1>X                13        33           20
+1>2                             6        14            8
+1>2 1>X                         9        29           20
+1>2 1>0                         8        16            8
+1>2 1>0 1>X                    11        31           20
+1>2 1>0 1>2                    10        18            8
+1>2 1>0 1>2 1>X                13        33           20
+2>X                            12        28           16
+2>1                             6        14            8
+2>1 0>X                         7        15            8
+2>1 0>1                         8        16            8
+2>1 0>1 0>X                     9        17            8
+2>1 0>1 2>X                     5         5            0
+2>1 0>1 2>1                    10        18            8
+2>1 0>1 2>1 0>X                11        19            8
+2>1 0>1 2>1 2>X                11        19            8
+2>1 2>X                        14        34           20
+Widths 1 to 7: [2, 12, 17, 28, 37, 48, 57]
+PASS: 34 transcripts, maximum difference 20, all seven base cases.
+
+== 2/6 transcript cross-check (coordinate replay) ==
+All entries and times agree: 2 L
+All entries and times agree: 2 R
+All entries and times agree: 4 L
+All entries and times agree: 4 R
+
+== 3/6 independent enumeration ==
+width 2: 34 records, longest record 4 visits
+width 4: 34 records, longest record 4 visits
+34 records; every entry row has a fixed parity inside its record
+difference distribution: {'0': 3, '8': 20, '15': 1, '16': 2, '20': 8} maximum 20
+independent values agree with certificate.json
+PASS
+
+== 4/6 certificate replay ==
+certificate replay: 34 records, all witnesses reproduce their P2 / P4
+difference distribution: {'0': 3, '8': 20, '15': 1, '16': 2, '20': 8} maximum 20
+PASS
+
+== 5/6 four-column -> two-column replacement test ==
+trials: 400 failures: 0
+steps lost: min -11, max 4, mean -1.1
+PASS: every replacement keeps the record and loses at most 20 steps
+
+== 6/6 base cases 1..7 by exact search ==
+width  S(3,n)  formula  match  seconds
+    1       2        2   True     0.0
+    2      12       12   True     0.0
+    3      17       17   True     0.0
+    4      28       28   True     0.0
+    5      37       37   True     0.0
+    6      48       48   True     0.0
+    7      57       57   True     0.0
+
+ALL CHECKS PASSED
+EXIT:0

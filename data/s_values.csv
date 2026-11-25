@@ -1,0 +1,15 @@
+n,S3n,method,checked_against
+1,2,exhaustive C brute force,formula
+2,12,exhaustive C brute force,formula
+3,17,exhaustive C brute force,formula
+4,28,exhaustive C brute force,formula
+5,37,exhaustive C brute force,formula
+6,48,exhaustive C brute force,formula
+7,57,exhaustive C brute force,formula
+8,68,exact branch search,formula; Etse Table 1 for n<=9
+9,77,exact branch search,formula; Etse Table 1 for n<=9
+10,88,exact branch search,formula; Etse Table 1 for n<=9
+11,97,exact branch search,formula; Etse Table 1 for n<=9
+12,108,exact branch search,formula; Etse Table 1 for n<=9
+13,117,exact branch search,formula; Etse Table 1 for n<=9
+14,128,exact branch search,formula; Etse Table 1 for n<=9
