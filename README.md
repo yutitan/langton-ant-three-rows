@@ -6,6 +6,8 @@
 · **Derived with:** GPT 6.2 Astra (OpenAI Codex, model `gpt-6.2-astra`),
 independently verified with DeepSeek Harness — see [Provenance](#provenance)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24540968.svg)](https://doi.org/10.5281/zenodo.24540968) · **Archived release:** v1.0.0 (2026-11-26)
+
 > 本仓库是"大模型的小练习"系列的第二篇，是一份个人 AI 使用记录，不是论文，
 > 不作优先权主张。系列第一篇：
 > [Counterexamples to *Written on the Wall II* conjecture #138](https://github.com/yutitan/wowii-conjecture-138)。
@@ -89,6 +91,24 @@ independently verified with DeepSeek Harness — see [Provenance](#provenance)
   （34n−150，n ≥ 13）。
 * 这是个人 AI 使用记录，**不声明新颖性/优先权**；文献检索范围见
   [literature/notes.md](literature/notes.md)。
+
+## Citation
+
+If you use this material, please cite it (see [`CITATION.cff`](CITATION.cff)):
+
+Archived releases are on Zenodo: **v1.0.0** has DOI [10.5281/zenodo.24540968](https://doi.org/10.5281/zenodo.24540968) (concept DOI [10.5281/zenodo.24540967](https://doi.org/10.5281/zenodo.24540967)). The DOI always refers to the archived snapshot; later commits are not part of it.
+
+```bibtex
+@misc{yutitan2026langton,
+  author       = {yutitan},
+  title        = {大模型的小练习（二）：三行朗顿蚂蚁的精确逃逸时间},
+  year         = {2026},
+  howpublished = {\url{https://github.com/yutitan/langton-ant-three-rows}},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.24540968},
+  note         = {Langton's ant on 3-row boards; series entry (一) is DOI 10.5281/zenodo.24540807}
+}
+```
 
 ## License
 

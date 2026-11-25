@@ -26,7 +26,15 @@ n ≤ 20).
 | 2026-11-26 | repository assembled and published | this repository |
 
 (2026-11-26 is the local date in UTC+8; the corresponding UTC instants are on
-2026-11-25 evening.)
+2026-11-25 evening. The Zenodo archive was minted at 2026-11-25 18:45:37 UTC,
+i.e. 2026-11-26 02:45 in UTC+8.)
+
+**Archived release.** v1.0.0 was published on GitHub on 2026-11-26 and
+archived by Zenodo as record [24540968](https://zenodo.org/records/24540968),
+version DOI [10.5281/zenodo.24540968](https://doi.org/10.5281/zenodo.24540968)
+(concept DOI [10.5281/zenodo.24540967](https://doi.org/10.5281/zenodo.24540967)).
+The DOI refers to the archived snapshot; commits made after the release,
+including this metadata update, are not part of it.
 
 ## What the AI systems did
 
