@@ -15,6 +15,9 @@ independently verified with DeepSeek Harness — see [Provenance](#provenance)
 > 系列第三篇：
 > [Langton's ant on n×n boards — an explicit escape-time bound](https://github.com/yutitan/langton-ant-square-bound)
 > — [DOI 10.5281/zenodo.24541703](https://doi.org/10.5281/zenodo.24541703)。
+> 系列第四篇：
+> [Reverse-play thresholds for Langton's ant](https://github.com/yutitan/langton-reverse-thresholds)
+> — release v1.0.0（Zenodo DOI 待回填）。
 
 ## 结果
 
