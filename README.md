@@ -17,7 +17,7 @@ independently verified with DeepSeek Harness — see [Provenance](#provenance)
 > — [DOI 10.5281/zenodo.24541703](https://doi.org/10.5281/zenodo.24541703)。
 > 系列第四篇：
 > [Reverse-play thresholds for Langton's ant](https://github.com/yutitan/langton-reverse-thresholds)
-> — release v1.0.0（Zenodo DOI 待回填）。
+> — [DOI 10.5281/zenodo.24583889](https://doi.org/10.5281/zenodo.24583889)。
 
 ## 结果
 
